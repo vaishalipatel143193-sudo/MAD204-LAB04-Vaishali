@@ -23,7 +23,6 @@ import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
 
-    //Main
     private lateinit var db: NotesDatabase
     private lateinit var adapter: MyAdapter
     private val notes = mutableListOf<Note>()
